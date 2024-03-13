@@ -1,0 +1,39 @@
+*{
+    background-color: #010101;
+    border: green 1px solid;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    color: #F0F0F0;
+}
+
+h1, h2{
+    color: #F0F0F0;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.about:hover{
+    color: #EF9B1B;
+    transition: 0.2s;
+}
+
+.portfolio:hover{
+    color: #EF9B1B;
+    transition: 0.2s;
+}
+
+
+p{
+    line-height: 150%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu{
+    display: flex;
+    gap: 30px;
+}
+
