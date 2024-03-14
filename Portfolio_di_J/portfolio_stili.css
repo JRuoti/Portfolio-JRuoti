@@ -42,3 +42,9 @@ nav{
     gap: 30px;
 }
 
+.hero {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin: 30px 20px;
+}
