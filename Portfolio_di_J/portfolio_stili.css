@@ -6,10 +6,13 @@
     color: #F0F0F0;
 }
 
+
 h1, h2{
     color: #F0F0F0;
     font-size: 24px;
     cursor: pointer;
+    font-size: 40px;
+    margin:20px;
 }
 
 .about:hover{
@@ -25,6 +28,8 @@ h1, h2{
 
 p{
     line-height: 150%;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 nav{
