@@ -7,6 +7,9 @@
     color: #F0F0F0;
 }
 
+html{
+    scroll-behavior: smooth;
+}
 
 @font-face {
 font-family: Bau;
@@ -96,3 +99,10 @@ footer{
     justify-content: flex-end;
     align-items: center;
 }
+
+.icon_footer{
+    display: flex;
+justify-content: flex-end;
+margin: 20px;
+}
+
