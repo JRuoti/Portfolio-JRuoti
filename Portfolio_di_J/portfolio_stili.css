@@ -16,7 +16,7 @@ src: url(/Fonts/bauhaus-93/Bauhaus\ 93\ Regular.ttf);
 
 h1{
     color: #F0F0F0;
-    font-size: 32px;
+    font-size: 46px;
     cursor: pointer;
     margin:20px;
     font-family: Bau;
@@ -24,16 +24,19 @@ h1{
 
 h2{
     color: #F0F0F0;
-    font-size: 24px;
+    font-size: 32px;
     cursor: pointer;
     margin:20px;
     font-family: Bau;
+    
 }
 
-footer{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+
+p{
+    line-height: 150%;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: "Roboto";
 }
 
 /*-------------------Menu------------------*/
@@ -49,12 +52,7 @@ nav{
     gap: 30px;
 }
 
-.about:hover{
-    color: #EF9B1B;
-    transition: 0.2s;
-}
-
-.portfolio:hover{
+.h2h:hover{
     color: #EF9B1B;
     transition: 0.6s;
 }
@@ -87,4 +85,14 @@ color: #E3D4B7;
 
 .process_three{
     color: #E8542F;
+}
+
+
+
+/*-------------------Footer------------------*/
+
+footer{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
