@@ -1,3 +1,5 @@
+/*-------------------Generali------------------*/
+
 *{
     background-color: #010101;
     border: green 1px solid;
@@ -11,13 +13,40 @@ font-family: Bau;
 src: url(/Fonts/bauhaus-93/Bauhaus\ 93\ Regular.ttf);
 }
 
-h1, h2{
+
+h1{
+    color: #F0F0F0;
+    font-size: 32px;
+    cursor: pointer;
+    margin:20px;
+    font-family: Bau;
+}
+
+h2{
     color: #F0F0F0;
     font-size: 24px;
     cursor: pointer;
-    font-size: 40px;
     margin:20px;
     font-family: Bau;
+}
+
+footer{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+/*-------------------Menu------------------*/
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center ;
+}
+
+.menu{
+    display: flex;
+    gap: 30px;
 }
 
 .about:hover{
@@ -30,6 +59,7 @@ h1, h2{
     transition: 0.6s;
 }
 
+/*-------------------Hero section------------------*/
 
 p{
     line-height: 150%;
@@ -38,19 +68,23 @@ p{
     font-family: "Roboto";
 }
 
-nav{
-    display: flex;
-    justify-content: space-around;
-}
-
-.menu{
-    display: flex;
-    gap: 30px;
-}
 
 .hero {
  display: flex;
  justify-content: center;
  align-items: center;
  margin: 30px 20px;
+}
+
+
+.process_one{
+color: #E3D4B7;
+}
+
+.process_two{
+    color: #EF9B1B;
+}
+
+.process_three{
+    color: #E8542F;
 }
