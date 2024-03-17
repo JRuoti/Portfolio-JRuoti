@@ -5,12 +5,10 @@
     color: #F0F0F0;
 }
 
-body {
-font-family: Helvetica, Arial, sans-serif; 
-}
 
 @font-face {
-
+font-family: Bau;
+src: url(/Fonts/bauhaus-93/Bauhaus\ 93\ Regular.ttf);
 }
 
 h1, h2{
@@ -19,6 +17,7 @@ h1, h2{
     cursor: pointer;
     font-size: 40px;
     margin:20px;
+    font-family: Bau;
 }
 
 .about:hover{
