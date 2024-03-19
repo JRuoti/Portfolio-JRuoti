@@ -78,6 +78,12 @@ p{
 }
 
 
+.process{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .process_one{
 color: #E3D4B7;
 }
