@@ -40,6 +40,29 @@ p{
     margin-left: 20px;
     margin-right: 20px;
     font-family: "Roboto";
+    font-size: 14px;
+}
+
+
+button{
+    border: none;
+    border-radius: 10px;
+    color:#f0f0f0e1;
+    background-color: #cd7d05e4;
+    cursor: pointer;
+    padding: 5px 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 14px;
+}
+
+button:hover{
+    color: #F0F0F0;
+    background-color: #ef9a1b98;
+    transition: 0.3s;
 }
 
 /*-------------------Menu------------------*/
